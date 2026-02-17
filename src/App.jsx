@@ -15,18 +15,18 @@ export default function App() {
   const [visibleCards, setVisibleCards] = useState(3);
 
   // Sample event data
-  const events = [
-    {
-      id: 1,
-      title: "Innovatex",
-      date: "Date: 6th-7th October 2025",
-      location: "Location: To be declared soon",
-      time: "Timings: To be declared soon!",
-      description:
-        "A 2-day Figma workshop and overnight hackathon with exciting rewards and IEEE membership offers. Design Smarter, Not Harder!",
-      image: "/event1.png?height=300&width=500",
-      category: "UI/UX Workshop and Hackathon",
-    },
+  // const events = [
+  //   {
+  //     id: 1,
+  //     title: "Innovatex",
+  //     date: "Date :  6th-7th October 2025",
+  //     location: "Location : ENTC seminar hall room 401",
+  //     time: "Timings: 2.00pm onwards",
+  //     description:
+  //       "A 2-day Figma workshop and overnight hackathon with exciting rewards and IEEE membership offers. Design Smarter, Not Harder!",
+  //     image: "/event1.png?height=300&width=500",
+  //     category: "UI/UX Workshop and Hackathon",
+  //   },
     // {
     //   id: 2,
     //   title: "EVENT 2",
@@ -70,7 +70,7 @@ export default function App() {
     //   image: "/placeholder.svg?height=300&width=500",
     //   category: "Showcase",
     // },
-  ];
+  // ];
 
   // Carousel logic
   useEffect(() => {
@@ -455,6 +455,22 @@ export default function App() {
                     "The “Git it Together” Workshop was held on 25th July 2025 by IEEE PES MCOE SB, where 100+ students gained hands-on experience with Git & GitHub, learning repositories, commits, branches, pull requests, and collaborative workflows, making version control accessible and beginner-friendly.",
                   image: "img12.jpg",
                 },
+                {
+                   title: "7-Days Workshop on ESP-32 & its Applications",
+                  description:
+                  "A 7-day hands-on ESP32 workshop conducted from 23rd–30th September 2025 at E&TC Seminar Hall (401) in collaboration with IEEE PES MCOE SB, TEESA, Robotics Club, ED Cell and IIC. Students learned Arduino IDE setup, sensor interfacing, Bluetooth & Wi-Fi communication, ESP32-CAM, OLED modules and built mini-projects. The workshop included expert mentoring, certification and practical learning experience.",
+                  image: "esp32 (1).jpg",
+
+
+                },
+
+                {
+                  title: "Innovatex – UI/UX Hackathon & Design Challenge",
+                  description:
+                  "Innovatex workshop conducted on 6th–7th October 2025 where students learned Figma design and prototyping.",
+                   image: "innovatex_event.jpeg",
+                 },
+
               ].map((event, index) => (
                 <div key={index} className="past-event-card">
                   <img

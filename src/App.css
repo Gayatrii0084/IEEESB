@@ -368,36 +368,24 @@ h2 {
 }
 
 /* Events Section */
+/* Upcoming Event Card Font Fix */
 .events-section {
-  padding: 5rem 0;
-  background: #f9fafb;
+  font-family: 'Poppins', sans-serif;
 }
 
-.events-container {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 1rem;
+.events-section h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
 }
 
-@media (min-width: 640px) {
-  .events-container {
-    padding: 0 1.5rem;
-  }
+.events-section p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.5;
 }
 
-.stay-tuned {
-  text-align: center;
-  font-size: 1.125rem;
-  color: #374151;
-  font-weight: 500;
-  font-family: "Raleway", sans-serif;
-}
-
-@media (min-width: 640px) {
-  .stay-tuned {
-    font-size: 1.25rem;
-  }
-}
 /* Hide scrollbar for Chrome, Safari and Opera */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
