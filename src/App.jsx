@@ -23,7 +23,7 @@ export default function App() {
     location: "ENTC seminar hall room 401",
     time: "2:00 PM onwards",
     description: "All about IEEE, its benefits, and how to join. Special sessions on career opportunities in IEEE and networking.",
-    image: "/membership.png",
+    image: "/membership.jpg",
     category: "Membership drive",
   },
 ];
@@ -381,7 +381,8 @@ export default function App() {
                   <img
                     src={event.image}
                     alt={event.title}
-                    className="w-full h-48 object-cover rounded-t-xl "
+                    className="w-full object-contain rounded-t-xl bg-white"
+
                   />
                   <div className="p-5 py-6">
                     <h3 className="text-xl font-bold">{event.title}</h3>
