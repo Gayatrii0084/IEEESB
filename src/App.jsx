@@ -15,25 +15,26 @@ export default function App() {
   const [visibleCards, setVisibleCards] = useState(3);
 
   // Sample event data
-  // const events = [
-  //   {
-  //     id: 1,
-  //     title: "Innovatex",
-  //     date: "Date :  6th-7th October 2025",
-  //     location: "Location : ENTC seminar hall room 401",
-  //     time: "Timings: 2.00pm onwards",
-  //     description:
-  //       "A 2-day Figma workshop and overnight hackathon with exciting rewards and IEEE membership offers. Design Smarter, Not Harder!",
-  //     image: "/event1.png?height=300&width=500",
-  //     category: "UI/UX Workshop and Hackathon",
-  //   },
+ const events = [
+  {
+    id: 1,
+    title: "Membership Drive 2026",
+    date: "25 February 2026",
+    location: "ENTC seminar hall room 401",
+    time: "2:00 PM onwards",
+    description: "All about IEEE, its benefits, and how to join. Special sessions on career opportunities in IEEE and networking.",
+    image: "/event1.png",
+    category: "Membership drive",
+  },
+];
+
     // {
     //   id: 2,
     //   title: "EVENT 2",
     //   date: "July 8-10, 2024",
     //   location: "Spa & Wellness Center",
     //   time: "9:00 AM - 5:00 PM",
-    //   description:
+    //   descriptio
     //     "A three-day retreat focused on mindfulness, yoga, and holistic health practices led by expert practitioners.",
     //   image: "/placeholder.svg?height=300&width=500",
     //   category: "Wellness",
