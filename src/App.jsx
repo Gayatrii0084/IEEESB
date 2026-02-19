@@ -23,7 +23,7 @@ export default function App() {
     location: "ENTC seminar hall room 401",
     time: "2:00 PM onwards",
     description: "All about IEEE, its benefits, and how to join. Special sessions on career opportunities in IEEE and networking.",
-    image: "/event1.png",
+    image: "/membership.png",
     category: "Membership drive",
   },
 ];
